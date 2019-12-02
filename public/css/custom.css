@@ -1,0 +1,373 @@
+.navbar-logo
+{
+    width: 42px;
+    height: 30px;
+}
+
+.navbar-brand h1{
+    font-size: 1.5em !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    
+}
+
+.dropdown-menu{
+    background-color: #313131 !important; 
+    color: #f7f7f7 !important;
+}
+
+.dropdown-menu a:hover{
+    background-color: inherit !important;
+    color: #3799B2 !important;
+    transition-duration: 0.3s;
+}
+
+.bluebtn{
+    color: #007bff !important;
+}
+.btn{
+    color: #f7f7f7 !important;
+}
+.card-header{
+    color: #003399 !important;
+}
+
+.bg-custom{
+    background-color: #313131 !important; 
+}
+
+.text-light-custom{
+    color: #f7f7f7 !important;
+}
+
+.bg-gold{
+    background-color: #D4AF37 !important;
+    color: #222222 !important;
+}
+
+.bg-silver{
+    background-color: silver !important;
+    color: #222222 !important;
+}
+
+.bg-bronze{
+    background-color: #554A3C !important;
+    color: #222222 !important;
+}
+
+.stripe-bg-img{
+    background-image: url('../img/stripes.png');
+    background-repeat: repeat;
+}
+
+.testmargin
+{
+    margin: 0 auto;
+}
+.navbar-laravel{
+    background-color: white !important;
+    
+}
+body{
+    /*background-color: #313131 !important;*/
+    background-image: url("../img/craft-art-background.png") !important;
+    background-position: 50% 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display:flex; 
+    flex-direction:column;
+}
+
+html, body{
+    height: 100%;
+}
+
+textarea{
+    max-width: 20em;
+}
+
+.ban-request-text-area{
+    max-width: 90% !important;
+    margin: 0 auto;
+}
+.list-group-item
+{
+    background-color: #313131 !important;
+    border-radius: 10px;
+    
+}
+
+.titles, #titles{
+    margin-top: 1% !important;
+    padding: 20px 0 !important;
+}
+
+.titles h1, h2{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    word-spacing: 5px;
+}
+
+.featured-title, .titles{
+    background-image: url("../img/craft-image-small.png") !important;
+    background-size: cover;
+    background-position: center;
+    width: 100% !important;
+    border-radius: 5px 5px 0 0 !important;
+}
+
+a {
+    color: #CC9D8D !important;
+}
+
+a.nav-link{
+    color: #f7f7f7 !important;
+    font-size: 0.9em !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+    a.nav-link:hover{
+        color: #3799B2 !important;
+        transition-duration: 0.3s;
+    }
+
+    a.nav-link.active{
+        color: #3799B2 !important;
+    }
+
+        a.nav-link.active:hover{
+            color: #f7f7f7 !important;
+        }
+
+h1, h2, h3, h4,h5,p, .card-text{
+    color: #f7f7f7 !important;
+}
+
+.text-purple{
+    color: #714554 !important;
+}
+
+.slides{
+    width: 100%;
+}
+.carousel-inner{
+    height: 70vh !important;
+
+}
+td,th{
+    color: #f7f7f7!important;
+}
+label{
+    color: #f7f7f7!important;
+}
+
+.card-top{
+    width:100% !important;
+    height:10vh !important;
+}
+.card .mb-3{
+    width: 50vh;
+    height: 17vh;
+    padding: 5px;
+    position: absolute !important;
+    bottom:0px;
+    right: 0px; 
+}
+
+.card-img-top{
+    
+}
+
+a.bottomLink{
+    position: absolute !important;
+    bottom: 0px!important;
+    left: 45%;
+    color: white;
+}
+.top{
+    height: 50vh;
+}
+
+.mid{
+    position: relative;
+    top: 10vh;
+    height: 25%;
+}
+.bottom{
+    position: relative;
+    top: 10vh;
+    height: 25%;
+}
+
+
+#homepage{
+
+    position: relative !important;
+    margin: 0 auto!important;
+    margin-top: 20px !important;
+    
+}
+
+.game-body{
+    width: 75%;
+    margin: 1% auto;
+}
+
+.game-body h5{
+    line-height: 1.5em;
+}
+
+/*  FEATURED SECTIONS*/
+.top-featured{ 
+    position: relative !important;
+    margin: 0 auto !important;
+    padding: initial 0 !important;
+    background-image: url('../img/stripes.png');
+    background-repeat: repeat;
+    background-color: #222222 !important;
+    border-radius: 0 0 5px 5px !important;
+
+}
+
+.top-players{
+}
+
+.top-groups{   
+}
+
+.top-game-image-container{
+    max-height: 10em;
+    overflow: hidden;
+    
+}
+
+.top-game-image{
+    width: 100%;
+    max-height: initial !important;
+    margin-top: -40% !important; /*Positions the image to display the centre*/
+}
+
+.top-game-card{
+    background-color: #313131 !important;
+}
+
+/*******************************/
+
+/** PROFILE STYLES */
+.profile-title{
+    width: 60% !important;
+    margin: 0 auto !important;
+}
+
+.profile-featured{
+    width: 60% !important;
+    margin: 0 auto !important;
+    border: 1px solid #f7f7f7 !important;
+    border-radius: 0 0 1% 1%;
+}
+
+.profile-information{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.card-title{
+    letter-spacing: 0.3px !important;
+    word-spacing: 3px !important;
+}
+
+
+.card-text{
+    max-width: 67%; /* golden ratio*/
+    margin: 0 auto;
+}
+a.bottomLink{
+    position: absolute !important;
+    bottom: 2% !important;
+    left: 45%;
+    color: white;
+}
+
+
+.user-image-normal{
+    max-width: 30% !important;
+    border-radius: 50%;
+}
+
+.profile-image{
+    max-width: 25% !important;
+}
+
+.group-image-home{
+    max-width: 20% !important;
+}
+
+/*MODAL STYLES*/
+.modal-content{
+    background-color: #313131 !important;
+}
+
+
+
+/** MEDIA QUERIES */
+@media (max-width: 750px) {
+    /** PROFILE STYLES */
+/* .profile-title{
+    width: 60% !important;
+    margin: 0 auto !important;
+} */
+
+.profile-featured{
+    width: 60% !important;
+    margin: 0 auto !important;
+    border: 1px solid #f7f7f7 !important;
+    border-radius: 0 0 1% 1%;
+}
+
+.profile-information.col{
+    width: 100% !important;
+}
+
+.player-group-information.col{
+    width: 100% !important;
+}
+
+.profile-edit-profile{
+    float: none !important;
+   
+}
+}
+
+@media (max-width: 562px) {
+    label.col-sm-4.col-form-label.text-right.edit-form-label{
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar-brand{
+        font-size: 1em !important;
+    }
+    h1{
+        font-size: 1.5em !important;
+    }
+    h2{
+        font-size: 1.4em !important;
+    }
+    h3{
+        font-size: 1.3em !important;
+    }
+    h4{
+        font-size: 1.2em !important;
+    }
+    h5, h6{
+        font-size: 1.1em !important;
+    }
+
+   
+}
